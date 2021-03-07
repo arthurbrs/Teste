@@ -1,0 +1,113 @@
+print("=-------------------------( UNIBRA )-----------------------------")
+print("-"*100)
+Aluno=input("Qual seu nome:")
+curso=input("qual seu curso:")
+print("=-------------------------( UNIBRA )-----------------------------")
+print("-"*100)
+print("          Proteja seus dados utilizem criptografia                                       ")
+print("-"*100)
+def  cripto(matricula):
+    tradutor=("cripto:")
+    for letra in matricula:
+        if letra in "":
+           tradutor= tradutor + "@"
+      
+        elif letra in "Aa": tradutor =tradutor+"8"
+        elif letra in "Bb": tradutor =tradutor+"9"
+        elif letra in "Cc": tradutor =tradutor+"s"
+        elif letra in "Dd": tradutor =tradutor+"p"
+        elif letra in "Ee": tradutor =tradutor+"u"
+        elif letra in "Ff": tradutor =tradutor+"x"
+        elif letra in "Gg": tradutor =tradutor+"m"
+        elif letra in "Hh": tradutor =tradutor+"9"
+        elif letra in "Ii": tradutor =tradutor+"k"
+        elif letra in "Jj": tradutor =tradutor+"[]"
+        elif letra in "Kk": tradutor =tradutor+"0"
+        elif letra in "Ll": tradutor =tradutor+"$"
+        elif letra in "Mm": tradutor =tradutor+"#"
+        elif letra in "Nn": tradutor =tradutor+")"
+        elif letra in "Oo": tradutor =tradutor+"%"
+        elif letra in "Pp": tradutor =tradutor+"$"
+        elif letra in "Qq": tradutor =tradutor+"<"
+        elif letra in "Rr": tradutor =tradutor+"?"
+        elif letra in "Ss": tradutor =tradutor+"<>"
+        elif letra in "Tt": tradutor =tradutor+"{}"
+        elif letra in "Uu": tradutor =tradutor+"°"
+        elif letra in "Vv": tradutor =tradutor+"ª"
+        elif letra in "Ww": tradutor =tradutor+"º"
+        elif letra in "Xx": tradutor =tradutor+"§"
+        elif letra in "Yy": tradutor =tradutor+"ç"
+        elif letra in "Zz": tradutor =tradutor+"ç"
+        elif letra in "1": tradutor =tradutor+"0"
+        elif letra in "2": tradutor =tradutor+"F"
+        elif letra in "3": tradutor =tradutor+"*"
+        elif letra in "4": tradutor =tradutor+"7"
+        elif letra in "5": tradutor =tradutor+"1"
+        elif letra in "6": tradutor =tradutor+"B"
+        elif letra in "7": tradutor =tradutor+"3"
+        elif letra in "8": tradutor =tradutor+"&"
+        elif letra in "9": tradutor =tradutor+"#"
+        elif letra in "0": tradutor =tradutor+"6"
+
+    return tradutor
+print(cripto(input(" matricula")))
+print(cripto(input(" cpf")))
+
+
+print("-"*100)print("=-------------------------( UNIBRA )-----------------------------")
+print("-"*100)
+Aluno=input("Qual seu nome:")
+curso=input("qual seu curso:")
+print("=-------------------------( UNIBRA )-----------------------------")
+print("-"*100)
+print("          Proteja seus dados utilizem criptografia                                       ")
+print("-"*100)
+def  cripto(matricula):
+    tradutor=("cripto:")
+    for letra in matricula:
+        if letra in "":
+           tradutor= tradutor + "@"
+      
+        elif letra in "Aa": tradutor =tradutor+"8"
+        elif letra in "Bb": tradutor =tradutor+"9"
+        elif letra in "Cc": tradutor =tradutor+"s"
+        elif letra in "Dd": tradutor =tradutor+"p"
+        elif letra in "Ee": tradutor =tradutor+"u"
+        elif letra in "Ff": tradutor =tradutor+"x"
+        elif letra in "Gg": tradutor =tradutor+"m"
+        elif letra in "Hh": tradutor =tradutor+"9"
+        elif letra in "Ii": tradutor =tradutor+"k"
+        elif letra in "Jj": tradutor =tradutor+"[]"
+        elif letra in "Kk": tradutor =tradutor+"0"
+        elif letra in "Ll": tradutor =tradutor+"$"
+        elif letra in "Mm": tradutor =tradutor+"#"
+        elif letra in "Nn": tradutor =tradutor+")"
+        elif letra in "Oo": tradutor =tradutor+"%"
+        elif letra in "Pp": tradutor =tradutor+"$"
+        elif letra in "Qq": tradutor =tradutor+"<"
+        elif letra in "Rr": tradutor =tradutor+"?"
+        elif letra in "Ss": tradutor =tradutor+"<>"
+        elif letra in "Tt": tradutor =tradutor+"{}"
+        elif letra in "Uu": tradutor =tradutor+"°"
+        elif letra in "Vv": tradutor =tradutor+"ª"
+        elif letra in "Ww": tradutor =tradutor+"º"
+        elif letra in "Xx": tradutor =tradutor+"§"
+        elif letra in "Yy": tradutor =tradutor+"ç"
+        elif letra in "Zz": tradutor =tradutor+"ç"
+        elif letra in "1": tradutor =tradutor+"0"
+        elif letra in "2": tradutor =tradutor+"F"
+        elif letra in "3": tradutor =tradutor+"*"
+        elif letra in "4": tradutor =tradutor+"7"
+        elif letra in "5": tradutor =tradutor+"1"
+        elif letra in "6": tradutor =tradutor+"B"
+        elif letra in "7": tradutor =tradutor+"3"
+        elif letra in "8": tradutor =tradutor+"&"
+        elif letra in "9": tradutor =tradutor+"#"
+        elif letra in "0": tradutor =tradutor+"6"
+
+    return tradutor
+print(cripto(input(" matricula")))
+print(cripto(input(" cpf")))
+
+
+print("-"*100)
